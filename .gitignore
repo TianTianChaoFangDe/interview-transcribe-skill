@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 本地模型缓存（体积大，不上传）
+models/
+*.bin
+*.pt
+
+# 音频文件（面试录音涉及隐私，不上传）
+*.mp3
+*.m4a
+*.wav
+*.ogg
+*.flac
+
+# 输出产物
+output/
+*.log
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
